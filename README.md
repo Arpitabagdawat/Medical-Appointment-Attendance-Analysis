@@ -132,9 +132,9 @@ GROUP BY Gender;
 
 ### 5. Show the average waiting days by age group:
  #### 0–18
- ###  19–35
- ###  36–60
-  ### 60+
+ #### 19–35
+ ####  36–60
+ #### 60+
    
 ```sql
 SELECT 
@@ -183,10 +183,10 @@ ORDER BY no_show_rate_percent DESC;
 ```
 
 ### 9. Does waiting time affect no-show? Show no-show rate by waiting time bucket:
-  ###  Same day (0 days)
-  ###  1–3 days
-   ### 4–7 days
-  ###  8+ days
+  #### Same day (0 days)
+  ####  1–3 days
+   #### 4–7 days
+  ####  8+ days
    
 ```sql
  SELECT 
