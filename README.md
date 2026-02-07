@@ -238,32 +238,18 @@ Goal: Predict whether a patient will miss the appointment.
 
 Features:
 
-1. Age
+ Age, Gender, WaitingDays, SMS_received, Scholarship, Diabetes, Alcoholism
 
-2.Gender
+ Models:
 
-3. WaitingDays
-
-4. SMS_received
-
-5. Scholarship
-
-6. Diabetes
-
-7. Alcoholism
-
-Models:
-
-1. Logistic Regression
-
-2. Random Forest
+ Logistic Regression, Random Forest
 
 Output:
 
 No-show prediction
 
 
-## 📈 10. Key Insights
+## 📈 9. Key Insights
 
 SMS reminders reduce no-show rate
 
@@ -275,7 +261,7 @@ Younger adults (19–30) miss more appointments
 
 
 
-## 👩‍💻 13. Author
+## 👩‍💻 10. Author
 
 Arpita Bagdawat
 
