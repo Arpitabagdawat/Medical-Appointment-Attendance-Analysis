@@ -262,21 +262,8 @@ Output:
 
 No-show prediction
 
-## 📁 9. Project Structure
 
-├── data/
-│   └── cleaned_medical_appointments.csv
-├── notebooks/
-│   └── medical_no_show_analysis.ipynb
-├── sql/
-│   └── sql_queries.sql
-├── powerbi/
-│   └── Medical_No_Show_Dashboard.pbix
-├── dashboard.png
-└── README.md
-
-## 
-📈 10. Key Insights
+## 📈 10. Key Insights
 
 SMS reminders reduce no-show rate
 
@@ -286,29 +273,7 @@ Scholarship patients have higher no-show rate
 
 Younger adults (19–30) miss more appointments
 
-## 🚀 11. How to Run This Project
 
-Run Jupyter Notebook
-
-Generate cleaned_medical_appointments.csv
-
-Import CSV into PostgreSQL
-
-Run SQL queries from sql_queries.sql
-
-Open Power BI dashboard
-
-Train ML model in notebook
-
-## 🔮 12. Future Improvements
-
-Add more cities / years
-
-Deploy ML model as web app
-
-Create real-time dashboard
-
-Add advanced ML models
 
 ## 👩‍💻 13. Author
 
