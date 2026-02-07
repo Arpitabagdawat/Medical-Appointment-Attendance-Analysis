@@ -65,5 +65,11 @@ Performed in Jupyter Notebook:
 df.to_csv("cleaned_medical_appointments.csv", index=False)
 
 
-##🗄️ 6. SQL Analysis (PostgreSQL)
+## 🗄️ 6. SQL Analysis (PostgreSQL)
+
+```sql
+-- 1. No-show rate
+SELECT No_show, COUNT(*) AS total_appointments
+FROM appointments
+GROUP BY No_show;
 
