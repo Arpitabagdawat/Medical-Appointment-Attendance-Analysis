@@ -230,7 +230,8 @@ Key Visuals:
 
 6. Slicers: Gender, Scholarship, SMS_received, Neighbourhood
 
-![Power BI Dashboard](https://github.com/Arpitabagdawat/Medical-Appointment-Attendance-Analysis/blob/main/Screenshot%20.png)
+## 🖼️ Dashboard Preview
+((https://github.com/Arpitabagdawat/Medical-Appointment-Attendance-Analysis/blob/main/Screenshot%20.png))
 
 ## 🤖 8. Machine Learning
 
