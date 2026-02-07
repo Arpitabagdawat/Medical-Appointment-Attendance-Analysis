@@ -131,7 +131,7 @@ GROUP BY Gender;
 ```
 
 ### 5. Show the average waiting days by age group:
- ###  0–18
+ # 0–18
  ###  19–35
  ###  36–60
   ### 60+
