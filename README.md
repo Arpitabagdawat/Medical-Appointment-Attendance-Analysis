@@ -236,15 +236,15 @@ Key Visuals:
 
 Goal: Predict whether a patient will miss the appointment.
 
-Features:
+### Features:
 
  Age, Gender, WaitingDays, SMS_received, Scholarship, Diabetes, Alcoholism
 
- Models:
+ ### Models:
 
  Logistic Regression, Random Forest
 
-Output:
+### Output:
 
 No-show prediction
 
