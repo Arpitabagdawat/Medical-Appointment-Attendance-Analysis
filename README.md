@@ -103,7 +103,7 @@ FROM appointments
 GROUP BY Gender;
 ```
 
-2. Show how many appointments were a no_show and how many were not.
+### 2. Show how many appointments were a no_show and how many were not.
 
 ```sql
 SELECT No_show, COUNT(*) AS total_appointments
@@ -112,7 +112,7 @@ GROUP BY No_show
 ORDER BY total_appointments DESC;
 ```
 
-3. Show the average waiting days for no-show vs show-up appointments.
+### 3. Show the average waiting days for no-show vs show-up appointments.
 
 ```sql
 SELECT No_show, AVG(WaitingDays) AS avg_waiting_days
@@ -120,7 +120,7 @@ FROM appointments
 GROUP BY No_show;
 ```
 
-4. Show the no-show rate (percentage) by gender.
+### 4. Show the no-show rate (percentage) by gender.
 
 ```sql
 SELECT 
@@ -130,7 +130,7 @@ FROM appointments
 GROUP BY Gender;
 ```
 
-5. Show the average waiting days by age group:
+### 5. Show the average waiting days by age group:
   0–18
   19–35
   36–60
@@ -150,7 +150,7 @@ GROUP BY age_group
 ORDER BY age_group;
 ```
 
-6. Show the top 5 neighbourhoods with the highest no-show rate.
+### 6. Show the top 5 neighbourhoods with the highest no-show rate.
 
 ```sql
 SELECT 
@@ -162,7 +162,7 @@ ORDER BY no_show_rate_percent DESC
 LIMIT 5;
 ```
 
-7. Show the effect of SMS reminders: compare no-show rate for patients who received SMS vs those who didn’t.
+### 7. Show the effect of SMS reminders: compare no-show rate for patients who received SMS vs those who didn’t.
 
 ```sql
 SELECT sms_received, 
@@ -171,7 +171,7 @@ FROM appointments
 GROUP BY sms_received
 ```
 
-8. Which day of the week has the highest no-show rate?
+### 8. Which day of the week has the highest no-show rate?
 
 ```sql
 SELECT 
@@ -182,7 +182,7 @@ GROUP BY day_of_week
 ORDER BY no_show_rate_percent DESC;
 ```
 
-9. Does waiting time affect no-show? Show no-show rate by waiting time bucket:
+### 9. Does waiting time affect no-show? Show no-show rate by waiting time bucket:
    Same day (0 days)
    1–3 days
    4–7 days
@@ -202,7 +202,7 @@ GROUP BY waiting_bucket
 ORDER BY no_show_rate_percent DESC;
 ```
 
-10. Find the top 3 factors most associated with no-show (e.g., SMS_received, Scholarship, Alcoholism, Diabetes).
+### 10. Find the top 3 factors most associated with no-show (e.g., SMS_received, Scholarship, Alcoholism, Diabetes).
 (Show no-show rate for each factor: 0 vs 1)
 
 ```sql
