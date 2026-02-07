@@ -20,7 +20,7 @@ We aim to answer business questions like:
 
 The data for this project is sourced from the Kaggle dataset:
 
-- **Dataset Link:** [Medical Appointment No Shows]([https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download](https://www.kaggle.com/datasets/joniarroba/noshowappointments))
+- **Dataset Link:** [Medical Appointment No Shows](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
 
 **Description:**  
 This dataset contains patient and appointment information to analyze attendance behavior.
