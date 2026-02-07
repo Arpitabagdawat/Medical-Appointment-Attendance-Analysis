@@ -73,3 +73,21 @@ SELECT No_show, COUNT(*) AS total_appointments
 FROM appointments
 GROUP BY No_show;
 
+-- DROP TABLE IF EXISTS appointments;
+CREATE TABLE appointments (
+    PatientId TEXT,
+    AppointmentID BIGINT,
+    Gender VARCHAR(10),
+    ScheduledDay TIMESTAMP,
+    AppointmentDay TIMESTAMP,
+    Age INT,
+    Neighbourhood TEXT,
+    Scholarship INT,
+    Hipertension INT,
+    Diabetes INT,
+    Alcoholism INT,
+    Handcap INT,
+    SMS_received INT,
+    No_show INT,
+    WaitingDays INT
+);
